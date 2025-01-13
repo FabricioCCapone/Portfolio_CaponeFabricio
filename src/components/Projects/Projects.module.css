@@ -1,0 +1,30 @@
+@import "../../vars.css";
+
+.projects {
+    justify-content: center;
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span {
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.technologies {
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+}
+  

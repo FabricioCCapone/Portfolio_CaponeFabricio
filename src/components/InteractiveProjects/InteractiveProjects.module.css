@@ -1,0 +1,48 @@
+.expandableList {
+  display: flex;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  gap: 20px;
+}
+
+.activeProject {
+  flex: 2;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  background-color: #6c5ce7;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.minimizedProjects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.projectItem {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.activeButton {
+  background-color: #6c5ce7; 
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inactiveButton {
+  background-color: #2c2c54; 
+  color: #aaa;
+}
+
+.inactiveButton:hover {
+  background-color: #3a3a6c;
+  color: white;
+}

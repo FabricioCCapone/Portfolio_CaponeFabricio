@@ -1,0 +1,50 @@
+@import "../../vars.css";
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 2rem 0;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.li {
+    margin-right: 1rem;
+}
+
+.ul > li > a:hover {
+    color: var(--color-quaternary);
+}
+
+.a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: var(--font-weight-medium);
+    margin-right: 2rem;
+}
+
+.a a {
+    color: var(--color-quaternary); 
+    margin-right: 0.2rem;
+    font-family: 'hack', monospace;
+}
+
+.img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}

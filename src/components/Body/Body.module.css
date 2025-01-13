@@ -1,0 +1,42 @@
+@import "../../vars.css";
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-top: 10vh;
+    min-height: 35vh;
+}
+
+.span {
+  letter-spacing: 0.2rem;
+}
+
+.h1 {
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    font-size: 50px;
+}
+
+.WordCycler {
+    font-family: 'hack', monospace;
+    color: var(--color-quaternary);
+}
+
+.main {
+    letter-spacing: 0.1rem;
+}
+
+.pmain {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-weight: 200;
+}
+

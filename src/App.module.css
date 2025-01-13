@@ -1,0 +1,6 @@
+@import "./vars.css"; 
+.App {
+    font: var(--font-primary);
+    color: var(--color-primary);
+    width: 100%;
+}
