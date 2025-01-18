@@ -4,3 +4,11 @@
     color: var(--color-primary);
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .App {
+        margin-inline: 0;
+        width: 100%;
+    }
+    
+}

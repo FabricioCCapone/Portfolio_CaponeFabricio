@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <img className={styles.img} src="/img_portfolio_icon.png" alt="" />
                 <a className={styles.a}>Fabricio Capone</a>
             </div>
-            <div>
+            <div className={styles.divul}>
                 <ul className={styles.ul}>
                     <li><a className={styles.a} href="#about"><a>01.</a>About</a></li>
                     <li><a className={styles.a} href="#projects"><a>02.</a>Projects</a></li>

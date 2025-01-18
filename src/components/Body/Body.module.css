@@ -40,3 +40,13 @@
     font-weight: 200;
 }
 
+@media screen and (max-width: 768px) {
+    .body {
+        width: 80%;
+    }
+    
+    .header {
+        min-height: 30vh;
+        margin-top: 5vh;
+    }
+}
